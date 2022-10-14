@@ -1,4 +1,8 @@
 love love!! , Addind some text...!!
 
+<<<<<<< HEAD
 Love you bebu!!! <3
+=======
+Love you Ashish!!
+>>>>>>> feature2
 
