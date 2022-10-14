@@ -1,0 +1,7 @@
+scp -i RHELnew.pem test.txt hadoop@ec2-23-22-251-48.compute-1.amazonaws.com:~
+
+scp -i D:\AMITA\RHELNew.ppk D:\AMITA\test.txt hadoop@ec2-23-22-251-48.compute-1.amazonaws.com:
+
+scp -i RHELnew.pem hadoop@ec2-23-22-251-48.compute-1.amazonaws.com:~/test.txt D:\AMITA\Download\
+
+sqoop import \--connect jdbc:mysql://upgraddetest.cyaielc9bmnf.us-east-1.rds.amazonaws.com/testdatabase \--table SRC_ATM_TRANS \--username student --password STUDENT123 \--target-dir /user/root/SRC_ATM_TRANS \-m 1
